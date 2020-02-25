@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+.field{
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, lime,lime,cyan,cyan,cyan,cyan,cyan,lime,lime);
+  height: 100vh;
+  padding: 0 20px;
+}
+.char{
+  width: 100px;
+  height: 100px;
+  margin: 30px 0;
+  border: 1px solid black;
+}
+
+.fox{
+  width: 0px;
+  height: 0px;
+  /* align-self: flex-start; */
+  border-top: 85px solid darkorange;
+  border-bottom: 0px solid transparent;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+}
+
+.sheep{
+  background: white;
+  border-radius: 20%;
+}
+
+.cabbage{
+  background: green;
+  border-radius: 50%;
+  /* align-self: flex-start; */
+}
+
+.farmer{
+  height: 100px;
+
+  background: brown;
+  align-self: flex-start;
+  margin: 0 300px
+}
+
+.cross-river{
+  align-self: flex-end;
+}
